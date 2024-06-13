@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musaranho-elefante - Animais fantásticos</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header musa">
+        <h1 class="header-title">Musaranho-elefante</h1>
+        <a class="home" href="../index.html"><img src="../img/home_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="voltar para home"></a>
+        <span class="dark" id='btn'><img src="../contrast_40dp_FILL0_wght400_GRAD0_opsz40.svg" alt=""></span>
+    </header>
+
+    <main>
+        <div class="porque">
+            <h2 class="porque-title">Por que comprar?</h2>
+            <p class="porque-text">
+                O Musaranho-elefante é um mamífero muito fofinho e que deseja muito VOCÊ. Se você não adquiri-lo ele vai ficar triste e você não quer vê-lo assim. Ele come as aranhas da sua casa também.
+            </p>
+        </div>
+
+        <div class="compre">
+            <h2 class="compre-title">COMPRE!!!!</h2>
+            <div class="compre-content">
+                <div class="compre-vid">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/0FEYNBuEUUM?si=2qGO89aDcGKsv2KQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <ul class="compre-list">
+                    <li class="compre-item">
+                        <p>Velocidade: 25km/h</p>
+                    </li>
+                    <li class="compre-item">
+                        <p>Habitat: SUA CASA</p>
+                    </li>
+                    <li class="compre-item">
+                        <p>Nutrição: insetos</p>
+                    </li>
+                </ul>
+                <div class="compre-preco">
+                    <p class="preco">SFr$ 45,00</p>
+                    <a class="btn" href="#">Comprar</a>
+                </div>
+                <div class="counter">
+                    <span id="value">0</span>
+                    <button onclick="onIncrement()">+</button>
+                    <button onclick="onDecrement()">-</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="../script/script.js"></script>
+
+</body>
+
+</html>

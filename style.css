@@ -1,0 +1,188 @@
+body {
+  background-color: #f2f4f6;
+}
+
+.escuro {
+  background-color: #1f1f1f;
+}
+
+img, iframe {
+  width: 100%;
+  height: 100%;
+}
+
+h1,
+p,
+h2,
+ul,
+li,
+a,
+span,
+div,
+h3,
+img,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2,
+h3 {
+  font-family: "Poetsen One", sans-serif;
+  color: #1ee3cf;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  color: #6b48ff;
+  font-size: 1.25rem;
+}
+
+.header {
+  height: 250px;
+  font-family: "Poetsen One", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.home {
+  width: 3rem;
+  margin: 32px;
+  background-color: #1f1f1f;
+  border-radius: 25%;
+}
+
+.dark {
+  width: 3rem;
+  margin: 32px;
+  margin-left: 0px;
+  background-color: #1f1f1f;
+  border-radius: 25%;
+}
+
+.musa {
+  background: url(./img/musaranho.webp) center;
+}
+
+.boi {
+  background: url(./img/peixe-boi.webp) center;
+}
+
+.orang {
+  background: url(./img/orangutango.webp) center;
+}
+
+.beetle {
+  background: url(./img/beetle.jpg) center;
+}
+
+.header-title {
+  border-radius: 6px;
+  padding: 8px 16px;
+  background-color: #1f1f1f;
+  max-width: 800px;
+  font-size: 4rem;
+  color: #0d3f67;
+}
+
+.intro-title,
+.porque-title {
+  font-size: 3rem;
+  max-width: 800px;
+  margin: 60px auto 20px auto;
+  margin-bottom: 20px;
+}
+
+.intro-text,
+.porque-text {
+  max-width: 800px;
+  margin: 20px auto 60px auto;
+}
+
+.content-title,
+.compre-title {
+  font-size: 3rem;
+  max-width: 800px;
+  margin: 0px auto 20px auto;
+}
+
+.content-list,
+.compre-list {
+  list-style: none;
+}
+
+.content-item {
+  padding: 16px;
+}
+
+.content-item:nth-child(odd) {
+  background-color: #e4e4e4;
+}
+
+.animal {
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 20px;
+  border-radius: 8px;
+  border: 2px solid #d4d4d4;
+}
+
+.animal:hover {
+  border: 2px solid #1f1f1f;
+}
+
+.animal-img {
+  grid-row: span 2;
+  height: 200px;
+}
+
+.animal-img img {
+  border-radius: 6px 0 0 6px;
+}
+
+.animal-title {
+  padding-top: 20px;
+  font-size: 2.5rem;
+}
+
+.compre-content {
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  align-content: center;
+}
+
+.compre-vid {
+  grid-column: span 3;
+  height: 450px;
+}
+
+.compre-item {
+  padding: 8px;
+}
+
+.compre-preco {
+  align-self: center;
+  justify-self: center;
+}
+
+.btn {
+  display: block;
+  text-transform: uppercase;
+  background-color: #6b48ff;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 2rem;
+  padding: 12px;
+  border-radius: 6px;
+}
